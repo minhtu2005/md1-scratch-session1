@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Manager</title>
+    <style>
+        .feedback-item {
+            border: 1px solid #cccccca2;
+            margin: 10px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <input type="text" id="name-input" placeholder="Enter feedback name">
+        <input type="number" id="score-input" placeholder="Enter score (1-10)" min="1" max="10">
+        <button id="send-btn">Send</button>
+    </div>
+    <div id="feedback-container"></div>
+    <script src="bt.js"></script>
+</body>
+</html>
